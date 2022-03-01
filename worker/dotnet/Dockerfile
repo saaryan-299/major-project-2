@@ -7,7 +7,7 @@ RUN dotnet restore
 COPY /Worker .
 RUN dotnet publish -c Release -o /out Worker.csproj
 
-# app image
+
 FROM microsoft/dotnet:2.1-runtime-nanoserver-sac2016
 
 WORKDIR /app

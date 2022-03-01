@@ -7,7 +7,7 @@ RUN dotnet restore
 COPY /Vote .
 RUN dotnet publish -c Release -o /out Vote.csproj
 
-# app image
+
 FROM microsoft/dotnet:2.1-aspnetcore-runtime-nanoserver-sac2016
 
 WORKDIR /app
