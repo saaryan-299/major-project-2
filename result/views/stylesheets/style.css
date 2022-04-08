@@ -86,6 +86,8 @@ body{
 
 #choice .choice .label{
   text-transform: uppercase;
+  text-align: center;
+  padding-right: 37%;
 }
 
 #choice .choice.dogs{
