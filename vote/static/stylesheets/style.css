@@ -3,6 +3,7 @@
 *{
   box-sizing:border-box;
 }
+
 html,body{
   margin: 0;
   padding: 0;
@@ -89,7 +90,6 @@ button.b{
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
-  /* padding-left: 50px; */
 }
 
 #choice button.a:hover{
@@ -114,6 +114,7 @@ button.b{
   width:100%;
   position:absolute;
 }
+
 #background-stats div{
   transition: width 400ms ease-in-out;
   display:inline-block;

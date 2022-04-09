@@ -1,11 +1,11 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,600);
 
-* {
+*{
 	box-sizing: border-box;
 }
 
 html, body {
-	margin: 0;
+    margin: 0;
 	padding: 0;
 	height: 100%;
 	font-family: 'Open Sans';
@@ -73,37 +73,37 @@ body {
 	height: 200px;
 }
 
-	#choice a {
-		text-decoration: none;
-	}
+#choice a {
+	text-decoration: none;
+}
 
-		#choice a:hover, #choice a:focus {
-			outline: 0;
-			text-decoration: underline;
-		}
+#choice a:hover, #choice a:focus {
+	outline: 0;
+	text-decoration: underline;
+}
 
-	#choice .choice {
-		width: 49%;
-		position: relative;
-		top: 50%;
-		transform: translateY(-50%);
-		text-align: left;
-		padding-left: 50px;
-	}
+#choice .choice {
+	width: 49%;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: left;
+	padding-left: 50px;
+}
 
-		#choice .choice .label {
-			text-transform: uppercase;
-		}
+#choice .choice .label {
+	text-transform: uppercase;
+}
 
-		#choice .choice.resultb {
-			color: #00cbca;
-			float: right;
-		}
+#choice .choice.resultb {
+	color: #00cbca;
+	float: right;
+}
 
-		#choice .choice.resulta {
-			color: #2196f3;
-			float: left;
-		}
+#choice .choice.resulta {
+	color: #2196f3;
+	float: left;
+}
 
 #background-stats {
 	z-index: 1;
@@ -112,10 +112,10 @@ body {
 	position: absolute;
 }
 
-	#background-stats div {
-		transition: width 400ms ease-in-out;
-		display: inline-block;
-		margin-bottom: -4px;
-		width: 50%;
-		height: 100%;
-	}
+#background-stats div {
+	transition: width 400ms ease-in-out;
+	display: inline-block;
+	margin-bottom: -4px;
+	width: 50%;
+	height: 100%;
+}
