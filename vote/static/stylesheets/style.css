@@ -6,11 +6,16 @@
 html,body{
   margin: 0;
   padding: 0;
-  background-color: #F7F8F9;
+  background-color: #9adaf0;
   height: 100vh;
   font-family: 'Open Sans';
+  background-image: url("https://blog.ipleaders.in/wp-content/uploads/2019/08/SOC-voting-image-TEXTLESS.jpg"); 
+  background-size: cover;
 }
-
+img {
+  width: 200px;
+  height: 300px;
+}
 button{
   border-radius: 0;
   width: 100%;
@@ -28,26 +33,14 @@ button i{
 }
 
 button.a{
-  background-color: #1aaaf8;
+  background-color: #2196f3;
+  border: 4mm ridge rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
 }
 
 button.b{
   background-color: #00cbca;
-}
-
-#tip{
-  text-align: left;
-  color: #c0c9ce;
-  font-size: 14px;
-}
-
-#hostname{
-  position: absolute;
-  bottom: 100px;
-  right: 0;
-  left: 0;
-  color: #8f9ea8;
-  font-size: 24px;
+  border-radius: 5px;
 }
 
 #content-container{
@@ -62,6 +55,7 @@ button.b{
 #content-container-center{
   display: table-cell;
   text-align: center;
+  padding-top: 200px;
 }
 
 #content-container-center h3{
@@ -83,19 +77,19 @@ button.b{
   text-decoration:underline;
 }
 
-#choice button{
+#choice button{ 
   display: block;
   height: 80px;
   width: 330px;
-  border: none;
+  border: 2px solid black;
   color: white;
   text-transform: uppercase;
   font-size:18px;
   font-weight: 700;
   margin-top: 10px;
   margin-bottom: 10px;
-  text-align: left;
-  padding-left: 50px;
+  text-align: center;
+  /* padding-left: 50px; */
 }
 
 #choice button.a:hover{
