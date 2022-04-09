@@ -89,6 +89,7 @@ button.b{
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
+  /* padding-left: 50px; */
 }
 
 #choice button.a:hover{
