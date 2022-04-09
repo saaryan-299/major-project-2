@@ -8,12 +8,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace Vote
-{
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
+namespace Vote {
+
+    public class Program {
+        public static void Main(string[] args) {
             CreateWebHostBuilder(args).Build().Run();
         }
 
