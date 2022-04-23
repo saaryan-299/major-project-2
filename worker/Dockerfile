@@ -6,7 +6,7 @@ COPY pom.xml /code/pom.xml
 RUN ["mvn", "dependency:resolve"]
 RUN ["mvn", "verify"]
 
-COPY ["src/main", "/code/src/main"]
+COPY ["Worker.java", "/code/src/main/java/worker/"]
 RUN ["mvn", "package"]
 
 FROM openjdk:8-jre-alpine
