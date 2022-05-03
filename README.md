@@ -23,3 +23,9 @@ The app will be running at http://localhost:5000, and the results will be at htt
 ![overview-multiple](docs/diagrams/overview-multiple.drawio.svg)
 
 * * *
+
+### Cluster Architecture Overview
+
+![overview-architecture](docs/diagrams/overview-architecture.drawio.svg)
+
+* * *
